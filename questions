@@ -1,0 +1,23 @@
+How can you make the player start with a different amount of money?
+Change what the "money = 5000" to the desired amount
+
+How does the program prevent the player from betting more money than they have?
+In the function getBet, the function repeats until a valid number is given. 
+
+How does the program represent a single card?
+in displayCard, it would represent a card faced down with a series of #, and a card faced up with the number value and the type of card, whether it's spade, heart, clubs or diamonds.
+
+How does the program represent a hand of cards?
+It would print both cards in the faced up format
+
+What do each of the strings in the rows list (created on line 197) represent?
+It's the set of string used to display what's on the card, each value of the list would be replaced for the next value.
+
+What happens if you delete or comment out random.shuffle(deck) on line 148?
+It would not be a random deck anymore
+
+What happens if you change money -= bet on line 112 to money += bet?
+You would never lose money.
+
+What happens when showDealerHand in the displayHands() function is set to True? What happens when it is False?
+The dealer's hand is shown if true, hidden if false.
